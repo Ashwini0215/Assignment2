@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Property Search</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="images/logo-quikr-homes-new.png" alt="Your Logo"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+
+											<a href="residentialProperty.html">Residential Property</a>
+									</li>
+
+									<li>
+										<a href="#">Commercial Property </a>
+									</li>
+
+									<li>
+										<a href="#">Rent a Property </a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">More Services</li>
+
+									<li>
+										<a href="#">Buy Apartments</a>
+									</li>
+
+									<li>
+										<a href="#">Plots</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+</div><!-- end container main -->
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+						<h2> Samiksha </h2>
+							<p> 2 &amp; 3 BHK Ready to Move in Apartments, Rs 32.55 lacs onwards</p>
+							<span>On Chandapura Main road, Nr Electronic City, Bangalore</span>
+							<small>Call on 9590 619 619</small>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+
+							<h2>Samyuktha Greenfields</h2>
+							<p>Home Starts From</p>
+							<span>43 Lakhs* Onwards</span>
+							<small>Know More</small>
+					  </div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+
+							<h2>Karthik The Icon</h2>
+							<p>3,4 BHK @ 1.21 Crore Onwards</p>
+							<span>Thanisandra Road, Bangalore</span>
+							<small>G:Corp The Icon</small>
+
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+
+<div class="container" id="main">
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Please Register </h4>
+						<p>For a free site visit</p>
+					</div><!-- end alert -->
+
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header">
+							<h1>Quikr Real Estate<small> Help you find your dream home</small></h1>
+						</div><!-- end page-header -->
+
+						<p class="lead">Buy or sell property...now in a click</p>
+
+						<a href="" class="btn btn-large btn-warning" id="alertMe">Click to Buy or Sell</a>
+						<a href="" class="btn btn-large btn-link">Register</a>
+					</div><!-- end well -->
+
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Samiksha Builders</h2>
+					<h3 class="secondary-heading no-margin">On time, all the time- Motto of Samiksha Builders</h3>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Park Express</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge1.jpg" alt="HTML5" class="img-circle">
+
+						<p>Sarjapur Road,Bangalore</p>
+						<h3>26lakh to 96lakh</h3>
+						<h5>1,2,3,4 BHK Apartment</h5>
+
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">ViewDetails</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Sam Euphoria</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge2.jpg" alt="CSS3" class="img-circle">
+
+						<p>Pallavaram,Chennai</p>
+						<h3>18lakh to 46lakh</h3>
+						<h5>1,2,3 BHK Apartment</h5>
+
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">View Details</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Agni Pelican Heights</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge3.jpg" alt="Bootstrap 3" class="img-circle">
+
+						<p>Baner,Pune</p>
+						<h3>16lakh to 96lakh</h3>
+						<h5>1,2,3,4 BHK Apartment</h5>
+
+						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">View Details</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+
+
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Neat Tabbable Content</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+
+							<li class="active"><a href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-map-marker"></span>Bangalore</a></li>
+							<li><a href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-home"></span>Rent</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+
+
+                <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600720839!2d77.35073277552621!3d12.954517012545413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka+560001!5e0!3m2!1sen!2sin!4v1462131429687" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p>Prestige Group was founded by Razack Sattar, who was born on 18 April 1927 in Bengaluru who started Prestige House for Men in 1950 as a tailoring shop and fabric selling for men in Bangalore's Commercial street. During the 1960s and late 1970s his sons Irfan Razack and Rezwan Razack worked with him, and his youngest son Noaman Razzack also joined when the business grew.[12] Began its journey from retail business but moved to real estate with its first project Prestige Court at KH road, Bangalore.[13][14] The company is ISO 9001:2008 certified.[15] To date, Prestige Group has completed 192 Projects spanning to an extent of 64 million sft.[16]</p>
+
+								<p>Nambiar Builders is a private limited company, incorporated under the Companies Act, 1956, with its registered office at Kadubisanahalli, Marathahalli, Outer Ring Road, Bangalore, India.
+
+An established real estate development company based in Bangalore, Nambiar Builders was launched by seasoned entrepreneurs with extensive experience in the Indian realty sector.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab2">
+								<h4>Luxurious Villa for Rent <small>Hurry up!!</small></h4>
+
+								<img src="images/rent.jpg" class="thumbnail pull-left" alt="Placeholder image">
+
+								<p>What can make a comfortable living space cozy, a place that one would call as their home with proud contentment? Where the warm aura of individuality is enhanced by streaks of personal creativity. One sure shot way is to nurture a garden in one’s living space. While a lot can be done in big houses …</p>
+
+								<p>What is the toughest part of moving to a new home? Leaving behind known friends and neighbors and seeing all new faces around. Rings a bell? Here are 3 tips that could help you in getting comfortable in your new society. When do you start to feel at home in a new house? </p>
+
+								<hr>
+
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click to Register</a>
+
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+
+												<h4 class="modal-title">Sign up to experience</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<!--<h4>Text in a modal</h4>
+
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+												<h4>Popovers in a modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+												<h4>Tooltips in a modal</h4>
+												<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+
+												<hr>
+
+												<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>-->
+
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+
+                      </div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+
+				<div class="col-sm-6">
+					<h3>Quikr Homes</h3>
+					<p>Quikr is an Indian classified advertising platform. It was founded by Pranay Chulet and Jiby Thomas in 2008,[1][2] and as of 2013 reported 12 million listings.[4] Headquartered in Bengaluru, </p>
+
+					<h4>Own your Dream</h4>
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Buy</h4>
+							<p class="list-group-item-text">The Bangalore Development Authority (BDA) of Bangalore, India, is a governmental organization and the principal planning authority for Bangalore.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Sell</h4>
+							<p class="list-group-item-text">property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water; immovable property of this nature; an interest vested in this (also) an item of real property.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Rent</h4>
+							<p class="list-group-item-text">Real estate portal CommonFloor.com launches apartment management offering CommonFloor Groups,which provide apartment communities across the country better communication, management and coordination amongst residents</p>
+						</a>
+					</div><!-- list-group -->
+
+					<h5>Free Delivery</h5>
+					<p>Earlier, Quikr sellers were left on their own to arrange the delivery of goods sold on the website. With the introduction of this new feature, it is expected that the transaction between buyers and sellers will become easier.
+					In fact, they had been testing this feature for the last few months, and as per their statement, 50% of transactions increased once free shipping was introduced. As of now, this service would be introduced in Delhi, Kolkata, Bangalore, Hyderabad and Chennai in the next 3 months.</p>
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+		</div><!-- end container main-->
+
+			<hr>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2016 Quikr</h6>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Quikr is India’s no.1 online classifieds platform, a place where people can connect with each other to buy or sell goods and services. Launched in 2008 with the vision for buyers and sellers to “meet online, transact offline”, today we have over 4.2 million listings and have generated over 150 million replies..</p>
+					</div><!-- end col-sm-4 -->
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-2">
+						<a href="#"><img style="right:-750px;top:-80px;" src="images/twitter.png" alt="Twitter"></a>
+
+						<a href="#"><img style="right:-750px;top:-80px;" src="images/googleplus.png" alt="GooglePlus"></a>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+
+		</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
